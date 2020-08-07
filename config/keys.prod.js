@@ -4,4 +4,5 @@ module.exports = {
     EMAIL_KEY: process.env.EMAIL_KEY,
     EMAIL_FROM: process.env.EMAIL_FROM,
     BASE_URL: process.env.BASE_URL
+    
 }
