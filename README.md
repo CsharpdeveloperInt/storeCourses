@@ -1,6 +1,6 @@
-# Store Courses
+#Store Courses
 
-# Table of Contents
+## Cодержание
 1. [Раздел список курсов](#storeList)
 2. [Example2](#example2)
 3. [Example2](#example2)

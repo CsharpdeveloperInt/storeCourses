@@ -1,0 +1,26 @@
+<h1>Редактировать курс {{course.title}}</h1>
+
+<form action="/courses/edit" method="POST">
+    <div class="input-field col s6">
+          <input id="title" name="title" type="text" class="validate" value="{{course.title}}" required>
+          <label for="title">Название курса</label>
+    </div>
+    <div class="input-field col s6">
+          <input id="price" name="price" type="number" min="1000" value="{{course.price}}" class="validate" required>
+          <label for="price">Стоимость курса</label>
+    </div>
+    <div class="input-field col s6">
+          <input id="img" name="img" type="text" class="validate" value="{{course.img}}" required>
+          <label for="img">Картинка курса</label>
+    </div>
+    <input type="hidden" name="id" value="{{course._id}}">
+    <input type="hidden" name="_csrf" value="{{@root.csurf}}">
+    <button type="submit" class="btn btn-primary">Редактировать курс</button>
+</form>
+
+<form action="/courses/remove" method="POST" >
+      <input type="hidden" name="id" value={{course._id}}>
+      <br>
+      <input type="hidden" name="_csrf" value="{{@root.csurf}}">
+      <button class="btn red">Удалить</button>
+</form>
