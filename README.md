@@ -1,12 +1,29 @@
-#Store Courses
+
+<h1 align="center">Store Courses</h1>
 
 ## Cодержание
-1. [Раздел список курсов](#storeList)
-2. [Раздел вход или регистрация](#login)
-3. [Раздел Добавить Курс](#courseAdd)
-4. [Раздел Заказы](#orderList)
-5. [Раздел Корзина покупок](#basket)
-6. [Раздел Профиль](#profile)
+1. [Используемый стек и библиотеки](#listLang)
+2. [Раздел список курсов](#storeList)
+3. [Раздел вход или регистрация](#login)
+4. [Раздел Добавить Курс](#courseAdd)
+5. [Раздел Заказы](#orderList)
+6. [Раздел Корзина покупок](#basket)
+7. [Раздел Профиль](#profile)
+
+
+
+<a name="listLang">Используемы стек и библиотеки </a>
+
+- NodeJS
+- Handlebars
+- Express
+- Mongoose
+- Multer
+- Nodemailer
+- Materializecss
+- etc.
+
+
 
 <a name="storeList">Раздел список курсов </a>
 
